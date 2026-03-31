@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaBookOpen, FaDollarSign } from 'react-icons/fa';
 
 const Dashboard = () => {
