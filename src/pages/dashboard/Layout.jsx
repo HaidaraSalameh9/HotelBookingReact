@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './../../component/dashboard/Navbar.jsx';
-import SideNavbar from './../../component/dashboard/SideNavbar.jsx';
+import Navbar from '../../component/dashboardComponent/Navbar.jsx';
+import SideNavbar from '../../component/dashboardComponent/SideNavbar.jsx';
 import { Outlet } from 'react-router-dom';
 const Layout = () => {
     return (
