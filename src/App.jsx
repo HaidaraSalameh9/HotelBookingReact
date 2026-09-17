@@ -16,7 +16,7 @@ import HotelList from './component/dashboardComponent/HotelList';
 
 function App() {
 
-  const isDashboard = useLocation().pathname.includes("dashboard");
+  const isDashboard = useLocation().pathname.includes("card");
   return (
     <>
       {!isDashboard && <Navbar />}
